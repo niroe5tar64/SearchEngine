@@ -9,8 +9,8 @@ public class LFSScanner implements Scanner {
 	private List<ScanEventListener> listenerList = new ArrayList<>();
 	
 	@Override
-	public void addScanEventListener(ScanEventListener lisnter) {
-		listenerList.add(lisnter);
+	public void addScanEventListener(ScanEventListener listenter) {
+		listenerList.add(listenter);
 	}
 
 	
